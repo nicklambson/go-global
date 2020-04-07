@@ -4,10 +4,61 @@ Startups who begin with a global mindset on day one will be well-prepared to exp
 
 ## Understand Globalization
 
-- **Globalization**: A company's transformation into a global company by adopting a **global mindset**. Known as g12n.
-- **Internationalization:** Generalizing a product to be more easily localizable across markets. Precedes localization. Known as i18n.
-- **Localization**: Adapting a product to meet the demands of a specific target market. Includes translation. Known as l10n.
-- **Translation**: Translating content from one language to another. Known as t9n.
+Going global involves four main activities, referred to collectively as GILT.
+
+### Globalization
+
+A company's overall transformation into a global company by adopting a global mindset. Known as **g12n**.
+
+- Multilingual communication
+- Global-readiness of products and services
+- International trade policy
+- Commercial processes
+- Global education
+
+### Internationalization 
+
+Standardizing a product for localization readiness. Allows for software to be adapted to various languages and regions without requiring engineering changes to source code. Precedes localization. Known as **i18n**.
+
+- Independence from a specific language/character set encoding
+
+- Independence from specific cultural conventions
+
+- Removal of hard-coded text
+
+- Minimization of concatenated text strings
+
+- Careful use of in-line variables
+
+- Compatibility with third-party tools
+
+- Unicode compliance for global text display
+
+- Accommodation of double-byte languages (for example, Japanese)
+
+- Accommodation of right-to-left languages (for example, Arabic)
+
+### Localization
+
+Adapting a product to a specific locale or market. Give a product the look and feel of having been created specifically for a target market, no matter the language, culture, or location. Localization includes translation. Known as **l10n**.
+- Adapting graphics to target markets
+
+- Modifying content to suit the tastes and consumption habits of other markets
+
+- Adapting design and layout to properly display translated text
+
+- Converting to local requirements (such as currencies and units of measure)
+
+- Using proper local formats for dates, addresses, and phone numbers
+
+- Addressing local regulations and legal requirements
+
+### Translation
+
+Translating content from one language to another. Known as **t9n**.
+
+  - Convey the original tone and intent, taking into account cultural and regional differences
+  - Alternatives include raw machine translation, post-edited machine translation, and transcreation.
 
 ![](images/GILT.png)
 
@@ -101,7 +152,7 @@ If you don't encode text in Unicode, users may see garbage:
 
 ![](images\no_unicode.png)
 
-They could instead be viewing a beautiful Chinese poem, *"Reading Laozi"*
+They could instead be viewing a Chinese poem, *"Reading Laozi"*
 
 ![](images\unicode.png)
 
@@ -115,7 +166,7 @@ Translations can be stored and reused in a translation memory database. Typicall
 
 Similar translations can be reused too, these are called "fuzzy matches" and have a percentage indicating the match rate. Translation memory reduces cost of future translations and ensures consistency.
 
-![](images\translation_memory.png")
+![](images\translation_memory.png)
 
 ## Standardize Terminology
 
