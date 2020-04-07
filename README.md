@@ -150,11 +150,11 @@ Note that we are not translating the date or time, we are using an international
 
 If you don't encode text in Unicode, users may see garbage:
 
-![](images\no_unicode.png)
+![](images/no_unicode.png)
 
 They could instead be viewing a Chinese poem, *"Reading Laozi"*
 
-![](images\unicode.png)
+![](images/unicode.png)
 
 I support the [UTF-8 Everywhere Manifesto](http://utf8everywhere.org/). "UTF-8 improves performance, reduces complexity of software, and helps prevent many Unicode-related bugs. Other encodings of Unicode belong to rare edge-cases of optimization and should be avoided by mainstream users."
 
@@ -166,13 +166,13 @@ Translations can be stored and reused in a translation memory database. Typicall
 
 Similar translations can be reused too, these are called "fuzzy matches" and have a percentage indicating the match rate. Translation memory reduces cost of future translations and ensures consistency.
 
-![](images\translation_memory.png)
+![](images/translation_memory.png)
 
 ## Standardize Terminology
 
 Enforce consistent translation by using a term database and an automatic QA tool. Terminology is typically stored in a .tbx or .csv file. Forbidden terms and non-translatable terms can also be added.
 
-![](images\terminology.png)
+![](images/terminology.png)
 
 ## Internationalize
 
@@ -209,13 +209,13 @@ Consider that in other languages, the form of the noun changes differently.
 
 Note that Arabic uses special rules to express plurals. If you are talking about two things, no need to use a number, just use the dual form of the noun.
 
-![](images\arabic.png")
+![](images/arabic.png")
 
 There are [19 different ways](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals) that languages use plural forms. Below are some examples.
 
-![](images\first_plural_rules.png)
+![](images/first_plural_rules.png)
 
-![](images\russian_plurals.png)
+![](images/russian_plurals.png)
 
 Date and Time Internationalization (from [Java documentation](https://docs.oracle.com/javase/tutorial/i18n/format/dateintro.html))
 
@@ -234,7 +234,7 @@ A well-developed localization operation needs tools. Below are some of the indus
 | Computer Assisted Translation | [memoQ](https://www.memoq.com/)<br />[SDL Trados Studio](https://www.sdltrados.com/products/trados-studio/)<br />[Memsource](https://www.memsource.com/)<br />[XTM Cloud](https://xtm.cloud/) | [OmegaT](https://omegat.org/)<br />[Qt Linguist](https://doc.qt.io/qt-5/qtlinguist-index.html)<br />[matecat](https://www.matecat.com/)<br />[Smartcat](https://www.smartcat.ai/) |
 | Website Localization          | [Smartling](https://www.smartling.com/)<br />[easyling](https://www.easyling.com/) |                                                              |
 
-![](images\atlas.jpg)
+![](images/atlas.jpg)
 
 ## Machine Translation
 
@@ -284,7 +284,7 @@ df = pd.DataFrame(result, columns=COLUMNS)
 df.to_excel("BLEU.xlsx", index=False)
 ```
 
-![](images\BLEU.png)
+![](images/BLEU.png)
 
 ### Edit Distance
 
@@ -336,7 +336,7 @@ df = pd.DataFrame(result, columns=COLUMNS)
 df.to_excel("Edit Distance.xlsx", index=False)
 ```
 
-![](images\edit_distance.png)
+![](images/edit_distance.png)
 
 ## Build your Own Tools
 
