@@ -9,7 +9,7 @@ Startups who begin with a global mindset on day one will be well-prepared to exp
 - **Localization**: Adapting a product to meet the demands of a specific target market. Includes translation. Known as l10n.
 - **Translation**: Translating content from one language to another. Known as t9n.
 
-![](C:\Users\Nick\Desktop\GILT.png)
+![](images/GILT.png)
 
 ## Externalize Strings
 
@@ -99,11 +99,11 @@ Note that we are not translating the date or time, we are using an international
 
 If you don't encode text in Unicode, users may see garbage:
 
-<img align="left" src="C:\Users\Nick\Desktop\no_unicode.png">
+<img align="left" src="images\no_unicode.png">
 
 They could instead be viewing a beautiful Chinese poem, *"Reading Laozi"*
 
-<img align="left" src="C:\Users\Nick\Desktop\unicode.png">
+<img align="left" src="images\unicode.png">
 
 I support the [UTF-8 Everywhere Manifesto](http://utf8everywhere.org/). "UTF-8 improves performance, reduces complexity of software, and helps prevent many Unicode-related bugs. Other encodings of Unicode belong to rare edge-cases of optimization and should be avoided by mainstream users."
 
@@ -115,13 +115,13 @@ Translations can be stored and reused in a translation memory database. Typicall
 
 Similar translations can be reused too, these are called "fuzzy matches" and have a percentage indicating the match rate. Translation memory reduces cost of future translations and ensures consistency.
 
-<img align="left" src="C:\Users\Nick\Desktop\translation_memory.png">
+<img align="left" src="images\translation_memory.png">
 
 ## Standardize Terminology
 
 Enforce consistent translation by using a term database and an automatic QA tool. Terminology is typically stored in a .tbx or .csv file. Forbidden terms and non-translatable terms can also be added.
 
-<img align="left" src="terminology.png">
+<img align="left" src="images\terminology.png">
 
 ## Internationalize
 
@@ -158,13 +158,13 @@ Consider that in other languages, the form of the noun changes differently.
 
 Note that Arabic uses special rules to express plurals. If you are talking about two things, no need to use a number, just use the dual form of the noun.
 
-<img align="left" src="arabic.png">
+<img align="left" src="images\arabic.png">
 
 There are [19 different ways](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals) that languages use plural forms. Below are some examples.
 
-<img align="left" src="first_plural_rules.png">
+<img align="left" src="images\first_plural_rules.png">
 
-<img align="left" src="russian_plurals.png">
+<img align="left" src="images\russian_plurals.png">
 
 Date and Time Internationalization (from [Java documentation](https://docs.oracle.com/javase/tutorial/i18n/format/dateintro.html))
 
@@ -183,7 +183,7 @@ A well-developed localization operation needs tools. Below are some of the indus
 | Computer Assisted Translation | [memoQ](https://www.memoq.com/)<br />[SDL Trados Studio](https://www.sdltrados.com/products/trados-studio/)<br />[Memsource](https://www.memsource.com/)<br />[XTM Cloud](https://xtm.cloud/) | [OmegaT](https://omegat.org/)<br />[Qt Linguist](https://doc.qt.io/qt-5/qtlinguist-index.html)<br />[matecat](https://www.matecat.com/)<br />[Smartcat](https://www.smartcat.ai/) |
 | Website Localization          | [Smartling](https://www.smartling.com/)<br />[easyling](https://www.easyling.com/) |                                                              |
 
-![](C:\Users\Nick\Desktop\atlas.jpg)
+![](images\atlas.jpg)
 
 ## Machine Translation
 
@@ -233,7 +233,7 @@ df = pd.DataFrame(result, columns=COLUMNS)
 df.to_excel("BLEU.xlsx", index=False)
 ```
 
-![](C:\Users\Nick\Desktop\BLEU.png)
+![](images\BLEU.png)
 
 ### Edit Distance
 
@@ -285,7 +285,7 @@ df = pd.DataFrame(result, columns=COLUMNS)
 df.to_excel("Edit Distance.xlsx", index=False)
 ```
 
-![](C:\Users\Nick\Desktop\edit_distance.png)
+![](images\edit_distance.png)
 
 ## Build your Own Tools
 
