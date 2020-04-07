@@ -191,6 +191,8 @@ shopping_cart = string.1 + " " + num + " " + string.3
 
 Consider that the word "have" can have multiple meanings. To possess something, or to indicate action in the past. This is sure to cause problems in translation.
 
+### Plurals
+
 Consider that in other languages, the form of the noun changes differently.
 
 | English  | Russian  | Chinese |
@@ -217,13 +219,15 @@ There are [19 different ways](https://developer.mozilla.org/en-US/docs/Mozilla/L
 
 ![](images/russian_plurals.png)
 
-Date and Time Internationalization (from [Java documentation](https://docs.oracle.com/javase/tutorial/i18n/format/dateintro.html))
+### Date and Time
+
+(from [Java documentation](https://docs.oracle.com/javase/tutorial/i18n/format/dateintro.html))
 
 `Date` objects represent dates and times. You cannot display or print a `Date` object without first converting it to a `String` that is in the proper format. Just what is the "proper" format? First, the format should conform to the conventions of the end user's `Locale`. For example, Germans recognize `20.4.09` as a valid date, but Americans expect that same date to appear as `4/20/09`. Second, the format should include the necessary information. For instance, a program that measures network performance may report on elapsed milliseconds. An online appointment calendar probably won't display milliseconds, but it will show the days of the week.
 
 This section explains how to format dates and times in various ways and in a locale-sensitive manner. If you follow these techniques your programs will display dates and times in the appropriate `Locale`, but your source code will remain independent of any specific `Locale`.
 
-## Take Advantage of Localization Tools
+## Localization Tools
 
 A well-developed localization operation needs tools. Below are some of the industry's finest tools, both commercial and open-source.
 
@@ -340,5 +344,5 @@ df.to_excel("Edit Distance.xlsx", index=False)
 
 ## Build your Own Tools
 
-I've built my own set of localization tools. My tools bridge gaps between systems, automate processes, and guarantee high quality localization. See examples of custom Python tools on my [GitHub page](https://github.com/nicklambson?tab=repositories). Most of my tools have been developed for private clients and are not public.
+I've built my own set of localization tools that bridge gaps between systems, automate processes, and guarantee high quality localization. See examples of custom Python tools on my [GitHub page](https://github.com/nicklambson?tab=repositories). Most of my tools have been developed for private clients and are not public.
 
