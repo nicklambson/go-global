@@ -99,11 +99,11 @@ Note that we are not translating the date or time, we are using an international
 
 If you don't encode text in Unicode, users may see garbage:
 
-<img align="left" src="images\no_unicode.png">
+![](images\no_unicode.png)
 
 They could instead be viewing a beautiful Chinese poem, *"Reading Laozi"*
 
-<img align="left" src="images\unicode.png">
+![](images\unicode.png)
 
 I support the [UTF-8 Everywhere Manifesto](http://utf8everywhere.org/). "UTF-8 improves performance, reduces complexity of software, and helps prevent many Unicode-related bugs. Other encodings of Unicode belong to rare edge-cases of optimization and should be avoided by mainstream users."
 
@@ -115,13 +115,13 @@ Translations can be stored and reused in a translation memory database. Typicall
 
 Similar translations can be reused too, these are called "fuzzy matches" and have a percentage indicating the match rate. Translation memory reduces cost of future translations and ensures consistency.
 
-<img align="left" src="images\translation_memory.png">
+![](images\translation_memory.png")
 
 ## Standardize Terminology
 
 Enforce consistent translation by using a term database and an automatic QA tool. Terminology is typically stored in a .tbx or .csv file. Forbidden terms and non-translatable terms can also be added.
 
-<img align="left" src="images\terminology.png">
+![](images\terminology.png)
 
 ## Internationalize
 
@@ -158,13 +158,13 @@ Consider that in other languages, the form of the noun changes differently.
 
 Note that Arabic uses special rules to express plurals. If you are talking about two things, no need to use a number, just use the dual form of the noun.
 
-<img align="left" src="images\arabic.png">
+![](images\arabic.png")
 
 There are [19 different ways](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals) that languages use plural forms. Below are some examples.
 
-<img align="left" src="images\first_plural_rules.png">
+![](images\first_plural_rules.png)
 
-<img align="left" src="images\russian_plurals.png">
+![](images\russian_plurals.png)
 
 Date and Time Internationalization (from [Java documentation](https://docs.oracle.com/javase/tutorial/i18n/format/dateintro.html))
 
