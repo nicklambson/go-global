@@ -2,7 +2,7 @@
 
 Startups who begin with a global mindset on day one will be well-prepared to expand to international markets. Below are 10 key elements of success.
 
-[TOC]
+{:toc}
 
 ## Understand Globalization
 
