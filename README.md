@@ -74,7 +74,7 @@ Separating strings from code makes it easy to manage translation. If strings are
 | Android  | strings.xml         |
 | Java     | .properties         |
 
-### Example Properties File:
+### Example Properties File
 
 ```properties
 # You are reading the ".properties" entry.
@@ -148,7 +148,7 @@ invitation = "请在%1$s%2$s参加我们的网络研讨会。"
 
 Note that we are not translating the date or time, we are using an internationalized variable. That way, the date and time can be automatically represented according to international conventions.
 
-## Use Unicode: UTF-8
+## Use UTF-8 Everywhere
 
 If you don't encode text in Unicode, users may see garbage:
 
