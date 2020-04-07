@@ -209,7 +209,7 @@ Consider that in other languages, the form of the noun changes differently.
 
 Note that Arabic uses special rules to express plurals. If you are talking about two things, no need to use a number, just use the dual form of the noun.
 
-![](images/arabic.png")
+![](images/arabic.png)
 
 There are [19 different ways](https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals) that languages use plural forms. Below are some examples.
 
